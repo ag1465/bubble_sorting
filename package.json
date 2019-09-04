@@ -4,7 +4,7 @@
   "description": "learn about binary search trees through implementation and simulation",
   "scripts": {
     "test": "npm run doc && testem",
-    "doc": "docco bubble.sort.spec.js && mergesort.spec.js"
+    "doc": "docco mergesort.spec.js"
   },
   "devDependencies": {
     "docco": "^0.7.0",
