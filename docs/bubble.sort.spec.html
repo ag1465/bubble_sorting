@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>bubble.sort.spec.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>bubble.sort.spec.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>describe(<span class="hljs-string">'Bubble Sort'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  it(<span class="hljs-string">'handles an empty array'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    expect( bubbleSort([]) ).toEqual( [] );
+  });
+  it(<span class="hljs-string">'expect sort'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    expect( bubbleSort([<span class="hljs-number">6</span>, <span class="hljs-number">25</span>, <span class="hljs-number">1</span>, <span class="hljs-number">5</span>, <span class="hljs-number">8</span>, <span class="hljs-number">10</span>, <span class="hljs-number">3</span>])).toEqual([<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>, <span class="hljs-number">8</span>, <span class="hljs-number">10</span>, <span class="hljs-number">25</span>]);
+  })
+  it(<span class="hljs-string">'expect sort'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> testArr = [<span class="hljs-number">4</span>, <span class="hljs-number">78</span>, <span class="hljs-number">35</span>, <span class="hljs-number">20</span>, <span class="hljs-number">34</span>, <span class="hljs-number">10</span>, <span class="hljs-number">14</span>, <span class="hljs-number">23</span>, <span class="hljs-number">4</span>, <span class="hljs-number">56</span>, <span class="hljs-number">23</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">23</span>, <span class="hljs-number">13</span>, <span class="hljs-number">1</span>]
+    expect( bubbleSort(testArr)).toEqual([<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">4</span>, <span class="hljs-number">4</span>, <span class="hljs-number">10</span>, <span class="hljs-number">13</span>, <span class="hljs-number">14</span>, <span class="hljs-number">20</span>, <span class="hljs-number">23</span>, <span class="hljs-number">23</span>, <span class="hljs-number">23</span>, <span class="hljs-number">34</span>, <span class="hljs-number">35</span>, <span class="hljs-number">56</span>, <span class="hljs-number">78</span>]);
+  })
+});</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
